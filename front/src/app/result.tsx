@@ -1,3 +1,5 @@
+//게임 결과 페이지
+
 export const ResultPage = () => {
   return (
     <div>
