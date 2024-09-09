@@ -16,7 +16,9 @@ const Game = ({ params }: { params: { level: string } }) => {
     <div class={"game-container"}>
       <h1>Game level : {params.level}</h1>
       <h2>Title : {gameData.title}<h2>
-      <
+      <TypeArea content={gameData.content} />
+      <button id="next-level" />
+      <button id="prev-level" />
     </div>
   );
 };
